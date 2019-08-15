@@ -1,12 +1,12 @@
 <template>
   <div>
-      Employee Home
+      Create Employee
   </div>
 </template>
 
 <script>
 export default {
-    name:"Employee",
+    name:"CreateEmployee",
     props:{
       msg:String
     }

@@ -1,16 +1,11 @@
 <template>
   <div>
-      <p>Hello world Eze</p>
+      <p>Dashboard</p>
   </div>
 </template>
 
 <script>
 export default {
     name:"Dashboard"
-
 }
 </script>
-
-<style>
-
-</style>
