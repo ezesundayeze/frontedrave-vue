@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import CreateEmployee from "../../App/features/CreateEmployee";
+import CreateEmployee from "@/App/features/CreateEmployee";
 
 export default {
   name: "CreateEmployee",

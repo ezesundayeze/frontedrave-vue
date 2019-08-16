@@ -1,16 +1,21 @@
 <template>
   <div>
-      <p>Dashboard</p>
+      <Menu/>
+      <Sidebar/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Dashboard from "../../App/features/Dashboard";
+import Dashboard from "@/App/features/Dashboard";
+import Sidebar from "@/views/Sidebar";
+import Menu from "@/views/Menu";
 export default {
-  name: "Dashboard",
+  name: "dashboard",
   components: {
-  Dashboard
+  Dashboard, 
+  Sidebar,
+  Menu
   }
 };
 </script>
